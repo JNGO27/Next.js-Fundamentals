@@ -3,13 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   compiler: {
-    styledComponents:
-      true |
-      {
-        displayName: true,
-        ssr: true,
-        fileName: true,
-      },
+    styledComponents: true,
   },
 };
 
