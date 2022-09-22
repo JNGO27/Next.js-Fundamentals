@@ -4,10 +4,6 @@ const nextConfig = {
   swcMinify: true,
   compiler: {
     styledComponents: true,
-    displayName: true,
-    ssr: true,
-    fileName: true,
-    cssProp: true,
   },
 };
 
