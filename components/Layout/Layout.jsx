@@ -1,4 +1,3 @@
-import GlobalStyles from '../GlobalStyles/GlobalStyles';
 import Navbar from '../Navbar/Navbar';
 import styled from 'styled-components';
 
@@ -10,7 +9,6 @@ const MainWrapper = styled.main`
 const Layout = ({ children }) => {
   return (
     <>
-      <GlobalStyles />
       <Navbar />
       <MainWrapper>{children}</MainWrapper>
     </>
