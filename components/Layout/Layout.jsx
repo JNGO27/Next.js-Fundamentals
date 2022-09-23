@@ -1,5 +1,6 @@
 import Navbar from '../Navbar/Navbar';
 import styled from 'styled-components';
+import GlobalStyles from '../GlobalStyles/GlobalStyles';
 
 const MainWrapper = styled.main`
   height: 100%;
