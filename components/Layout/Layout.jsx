@@ -8,10 +8,11 @@ const MainWrapper = styled.main`
 
 const Layout = ({ children }) => {
   return (
-    <>
+    <div>
+      <GlobalStyles />
       <Navbar />
       <MainWrapper>{children}</MainWrapper>
-    </>
+    </div>
   );
 };
 
